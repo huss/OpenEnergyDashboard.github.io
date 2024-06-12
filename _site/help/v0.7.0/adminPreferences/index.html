@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>OED admin page help</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../../css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="../../index.html"> <img id="logo" alt="OED logo" src="../../images/logo.png"></a>
+		<a href="../../index.html">OED Website</a>
+		<a href="index.html">help: </a>
+		<a href="admin.html">Admin help:</a>
+		<div class="dropdown">
+			<button class="dropbtn">Conversions &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminConversionCreating.html">Creating Conversions</a>
+				<a href="adminConversionEditing.html">Editing Conversions</a>
+				<a href="adminConversionViewing.html">Viewing Conversions</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Groups &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminGroupCreating.html">Creating groups</a>
+				<a href="adminGroupEditing.html">Editing groups</a>
+				<a href="adminGroupViewing.html">Viewing groups</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Maps &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminMapCreating.html">Creating Maps</a>
+				<a href="adminMapViewing.html">Viewing/editing Maps</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Meters &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminMeterCreating.html">Creating meters</a>
+				<a href="adminMeterEditing.html">Editing meters</a>
+				<a href="adminMeterViewing.html">Viewing meters</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Other &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminDataAcquisition.html">Data Acquisition</a>
+				<a href="adminPreferences.html">Preferences</a>
+				<a href="adminInstallation.html">Site Installation</a>
+				<a href="adminOedUnits.html">Standard OED units and conversions</a>
+				<a href="adminUser.html">Users</a>
+				<a href="adminUnitInfo.html">Units and conversions setup/info</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Units &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="adminUnitCreating.html">Creating units</a>
+				<a href="adminUnitEditing.html">Editing units</a>
+				<a href="adminUnitViewing.html">Viewing units</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn">Help versions &#x25BC;</button>
+			<div class="dropdown-content">
+				<a href="../v1.0.0/adminPreferences.html">OED version 1.0.0 Help</a>
+				<a href="../v0.8.0/adminPreferences.html">OED version 0.8.0 Help</a>
+				<a href="../v0.7.0/adminPreferences.html">OED version 0.7.0 Help</a>
+				<a href="../v0.6.0/adminPreferences.html">OED version 0.6.0 Help</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container"><div>
+	<!-- Add version info at top of page. Would be nice if could put in layout but then relative link does not work. -->
+	<p>The info on this page is for OED version 0.7.0. See "Help versions" menu at top of page for other versions.</p>
+	<!-- Page content -->
+	<h1>Main Admin Page (Help)</h1>
+
+	<h2 id="overview">Overview</h2>
+	<p>The main admin page allows admins to change site preferences and control users.</p>
+
+	<h2 id="usage">Usage</h2>
+	<p>You must be <a href="admin.html#usage">logged in</a> as an admin to access these features.</p>
+
+	<p>On the main OED page, click the "Admin Panel" button in
+		the top,
+		right (highlighted with a blue box) to go to the main admin page as shown in the next figure.</p>
+	<img alt="main OED page for admin" src="./images/OEDMainPageForAdmin.png" style="width: 75vw; min-width: 700px;">
+	<p>You will now be on the main admin page as shown in the next figure. Each area of the page is described below.
+		<strong>It is important that you click the "Submit" button at the bottom of the page to save your changes to the
+			database. If you do not do this, other users will not see the change and it will be gone the next time you
+			visit your site or refresh your web browser page with OED.</strong>
+	</p>
+	<img alt="admin page" src="./images/OEDAdminPage.png" style="width: 75vw; min-width: 700px;">
+
+	<h3>Manage: Users</h3>
+<p>This allows admins to manage the users on the system. Help on this feature is on the <a href="adminUser.html">admin user</a> help page.</p>
+
+	<h3>Default Site Title</h3>
+	<p>Clicking the box below this label will allow you to enter or edit the OED site title shown at the top of each
+		page. You should try to keep the title fairly short so that it does not take up too much space on each page. The
+		title will remain blank until you enter one.</p>
+
+	<h3>Default Graph Type</h3>
+	<p>When a user first loads OED, you can control the <a href="graphType.html">graph type</a> that will appear. The
+		user can still change to another graph type if they wish. The types of graphs you can choose mirror the ones
+		allowed. Simply click the circle next to your choice. The default will be "Line" unless you change it.</p>
+
+	<h3>Default Bar Stacking</h3>
+	<p>The <a href="barGraphic.html#barStacking">bar stacking</a> option allows the bar graphic to show as single,
+		stacked bar for each time frame. By default this is off. You can make it default to on by clicking the box next
+		to "Bar Stacking". If checked, you can click to remove this choice.</p>
+
+	<h3>Default Language</h3>
+	<p>Clicking one of the languages below this label will set OED to use that language for its strings within the
+		application for all users. The default language is "English" until you change it. Users can manually change the language if desired.</p>
+
+	<h3>Default Time Zone</h3>
+	<p>OED works with <a href="time.html">time</a> in a time zone neutral way. However, when data is exported
+		from OED, the person may want to have information on the time zone of that data. The dropdown menu contains
+		every possible standard time zone in the world. You can type at the top to search the list. The selected time
+		zone becomes the default value if none is set for the <a href="adminMeterViewing.html">meter</a>. Note this has
+		no impact on what is shown within OED and is strictly for export of data. The site value for time zone is
+		overridden if a value is set for a specific meter.</p>
+
+	<h2 id="details">Details</h2>
+	<p>The map graphic cannot be made the default graphic type at this time. We expect that will change soon.</p>
+	<p>The popup help is set to be language settable but the translations are not yet done. The help pages on the web
+		(linked from within the app help) are not translated but may be in the future.</p>
+	<p>Once you set a time zone, you cannot unset the value to nothing. This is not commonly done but we plan to fix
+		this in a
+		future release.</p>
+	<p>The feature to include time zone information with exported data is not yet available. The ability to set time
+		zones is included now so sites can begin setting any necessary value.</p>
+	<p>It is not difficult to include additional languages within OED. If you are willing to translate the strings, we
+		can provide a file to type them in that can then be permanently stored with our source code so your site and
+		other sites will always have that language. We will also modify OED to show that language choice on the admin
+		page. We welcome the addition of languages to OED. If interested then please contact us.</p>
+</div></div>
+	<footer>
+		<div class="navbar">
+			<a href="mailto:help@OpenEnergyDashboard.org">Email OED Help or comments on these
+				pages</a>
+			<a href="https://github.com/OpenEnergyDashboard/OED" target="_blank" rel="noopener noreferrer">GitHub
+				Repository</a>
+		</div>
+		<p>This page is part of the Open Energy Dashboard and is subject to the terms of the Mozilla Public
+			License,
+			v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at <a
+				href="https://www.mozilla.org/en-US/MPL/2.0/" rel="nofollow">https://www.mozilla.org/en-US/MPL/2.0/</a>.
+		</p>
+	</footer>
+</body>
+
+</html>
