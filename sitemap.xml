@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 201 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 123 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/404.html</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//404.html</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,9 +20,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/admin/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/admin/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -35,9 +35,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/admin/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/admin/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -50,9 +50,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/admin/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/admin/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -65,9 +65,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/admin/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminCsvImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -80,9 +80,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminConversionCreating/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminCsvImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -95,9 +95,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminConversionEditing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminDataAcquisition/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -110,9 +110,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminConversionViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminDataAcquisition/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -125,9 +125,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminCsvImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminDataAcquisition/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -140,9 +140,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminCsvImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminGroupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -155,9 +155,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminCsvImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminGroupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -170,9 +170,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminDataAcquisition/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminGroupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -185,9 +185,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminDataAcquisition/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminInstallOutput/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -200,9 +200,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminDataAcquisition/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminInstallOutput/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -215,9 +215,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminDataAcquisition/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminInstallation/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -230,9 +230,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminEgauge/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminInstallation/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -245,9 +245,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminGroupCreating/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminMamac/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -260,9 +260,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminGroupEditing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminMamac/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -275,9 +275,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminGroupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminMap/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -290,9 +290,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminGroupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminMap/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -305,9 +305,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminGroupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminMap/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -320,9 +320,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminGroupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminMapViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -335,9 +335,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminInstallOutput/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminMapViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -350,9 +350,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminInstallOutput/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminMapViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -365,9 +365,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminInstallOutput/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminMeterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -380,9 +380,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminInstallation/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminMeterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -395,9 +395,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminInstallation/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminMeterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -410,9 +410,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminInstallation/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminMetersImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -425,9 +425,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMamac/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminMetersImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -440,9 +440,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminMamac/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminPreferences/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -455,9 +455,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminMamac/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/adminPreferences/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -470,9 +470,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminMap/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminPreferences/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -485,9 +485,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminMap/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminReadingsImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -500,9 +500,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminMap/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminReadingsImport/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -515,9 +515,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMapCreating/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminUpgrading/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -530,9 +530,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMapViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminUpgrading/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -545,9 +545,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminMapViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/adminUser/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -560,9 +560,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminMapViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/adminUser/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -575,9 +575,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminMapViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//blog/archive/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -589,160 +589,12 @@
 	
 
 	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMeterCreating/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMeterEditing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMeterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminMeterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminMeterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminMeterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminMetersImport/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminMetersImport/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminMetersImport/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminOedUnits/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminPageChoices/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//atom.xml</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -754,70 +606,12 @@
 	
 
 	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminPreferences/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminPreferences/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/adminPreferences/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminPreferences/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminReadingsImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/barGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -830,9 +624,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminReadingsImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/barGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -845,9 +639,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminReadingsImport/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/barGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -860,9 +654,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUnitCreating/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/chartLink/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -875,9 +669,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUnitEditing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/chartLink/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -890,9 +684,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUnitInfo/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/chartLink/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -905,9 +699,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUnitViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/compareGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -920,9 +714,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUpgrading/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/compareGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -935,9 +729,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminUpgrading/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/compareGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -950,9 +744,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminUpgrading/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//contact/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -965,9 +759,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUpgradingV1/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//demo/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -980,9 +774,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/adminUser/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/export/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -995,9 +789,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/adminUser/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/export/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1010,9 +804,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/adminUsers/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/export/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1025,9 +819,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/archive/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//features/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1040,9 +834,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/areaNormalization/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//feed.xml</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1051,15 +845,13 @@
 		<priority>0.3</priority>
 	
 	</url>
-	
-
 	
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/atom.xml</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//free/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1071,12 +863,10 @@
 	
 
 	
-
-	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/barGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/graphType/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1089,9 +879,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/barGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/graphType/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1104,9 +894,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/barGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/graphType/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1119,9 +909,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/barGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/graphingGroups/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1134,9 +924,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/changelog/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/graphingGroups/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1149,9 +939,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/chartLink/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/graphingGroups/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1164,9 +954,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/chartLink/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/graphingMeters/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1179,9 +969,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/chartLink/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/graphingMeters/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1194,9 +984,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/chartLink/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/graphingMeters/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1209,9 +999,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/cla/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/groupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1224,9 +1014,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/codeGuidelines/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/groupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1239,9 +1029,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/codeOrganization/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/groupViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1254,9 +1044,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/compareGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/hideOptions/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1269,9 +1059,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/compareGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/hideOptions/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1284,9 +1074,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/compareGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/hideOptions/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1299,9 +1089,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/compareGraphic/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/home/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1314,9 +1104,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/contact/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/home/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1329,9 +1119,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/conversionsUnits/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/home/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1344,9 +1134,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/demo/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//humans.txt</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1359,9 +1149,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//blog/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1374,9 +1164,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/devDetails/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1389,9 +1179,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/documentation/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1404,9 +1194,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/environment/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1419,9 +1209,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/exampleDescription/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1434,9 +1224,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/export/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//internship/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1449,9 +1239,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/export/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//involved/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1464,9 +1254,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/export/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/language/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1479,9 +1269,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/export/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/language/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1494,9 +1284,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/features/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/lineGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1509,9 +1299,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/feed.xml</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/lineGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1524,9 +1314,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/fullInstallOutput/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/lineGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1539,9 +1329,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/getting-started/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/mapGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1554,9 +1344,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/gettingStarted/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/mapGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1569,9 +1359,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/graphType/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/mapGraphic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1584,9 +1374,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/graphType/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/meterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1599,9 +1389,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/graphType/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/meterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1614,9 +1404,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/graphType/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/meterViewing/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1629,9 +1419,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/graphingGroups/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//mission/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1644,9 +1434,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/graphingGroups/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//name/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1659,9 +1449,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/graphingGroups/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//news/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1674,9 +1464,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/graphingGroups/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/pageChoices/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1689,9 +1479,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/graphingMeters/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/pageChoices/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1704,9 +1494,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/graphingMeters/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/pageChoices/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1719,9 +1509,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/graphingMeters/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//principles/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1734,9 +1524,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/graphingMeters/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//projectInfo/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1749,9 +1539,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/graphingRates/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//redirect-page/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1764,9 +1554,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/graphingUnits/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//robots.txt</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1777,41 +1567,15 @@
 	</url>
 	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/groupViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
 	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/groupViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
 	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/groupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//search/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1824,9 +1588,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/groupViewing/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//sitemap.xml</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1839,9 +1603,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/headers/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//studentExperience/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1852,26 +1616,13 @@
 	</url>
 	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/hideOptions/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
 	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/hideOptions/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/time/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1884,9 +1635,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/hideOptions/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/time/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1899,9 +1650,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/hideOptions/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/time/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1914,9 +1665,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/home/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.7.0/tooltip/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1929,9 +1680,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/home/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.6.0/tooltip/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1944,9 +1695,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/home/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//help/v0.8.0/tooltip/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1959,9 +1710,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/home/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//use/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1974,9 +1725,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/humans.txt</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//useAcademic/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1989,9 +1740,9 @@
 
 	
 	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/</loc>
+	<loc>https://huss.github.io/OpenEnergyDashboard.github.io//why/</loc>
 	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
+		<lastmod>2024-06-21T12:32:44-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -2002,1218 +1753,12 @@
 	</url>
 	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
 	
-	</url>
-	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
 	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/indexMOVE/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/info/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/internship/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/involved/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/language/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/language/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/language/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/learningTechnologies/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/lineGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/lineGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/lineGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/lineGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/mapGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/mapGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/mapGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/mapGraphic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/meterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/meterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/meterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/meterViewing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/news/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/noNPMInstallOutput/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/npm/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/optionsMenu/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/pageChoices/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/pageChoices/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/pageChoices/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/pageChoices/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/pr/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/projectInfo/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/redirect-page/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/release/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/roadmap/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/robots.txt</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/search/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/sitemap.xml</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/studentExperience/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/technologies/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/testData/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/testing/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/time/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/time/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/time/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/time/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v1.0.0/tooltip/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.7.0/tooltip/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.6.0/tooltip/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/help/v0.8.0/tooltip/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/use/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/useAcademic/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/work/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/developer/wslSteps/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/page2/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/page3/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/page4/</loc>
-	
-		<lastmod>2024-06-12T17:07:48-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-
-<!-- Posts: 19 links with priority=0.5, changefreq=monthly -->
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/mediaelement_js/</loc>
-	
-		<lastmod>2015-10-15T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/typography/typography/</loc>
-	
-		<lastmod>2015-08-16T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/comments/</loc>
-	
-		<lastmod>2015-08-15T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/no-header/</loc>
-	
-		<lastmod>2015-08-11T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/no-header-but-image/</loc>
-	
-		<lastmod>2015-03-12T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/header-with-text/</loc>
-	
-		<lastmod>2015-02-10T00:00:00-06:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/header-logo-only/</loc>
-	
-		<lastmod>2014-10-09T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/header-image-color/</loc>
-	
-		<lastmod>2014-10-09T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/header-full-width-image/</loc>
-	
-		<lastmod>2014-10-09T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/header-image-pattern/</loc>
-	
-		<lastmod>2014-10-08T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/gallery/</loc>
-	
-		<lastmod>2014-09-15T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/video/</loc>
-	
-		<lastmod>2014-09-14T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/grid/</loc>
-	
-		<lastmod>2014-09-13T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/portfolio/</loc>
-	
-		<lastmod>2014-09-10T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/page-fullwidth/</loc>
-	
-		<lastmod>2014-08-19T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/post-right-sidebar/</loc>
-	
-		<lastmod>2014-07-10T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/page/</loc>
-	
-		<lastmod>2014-07-10T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/breadcrumb/</loc>
-	
-		<lastmod>2014-07-10T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/design/post-left-sidebar/</loc>
-	
-		<lastmod>2014-07-09T00:00:00-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.5</priority>
-	
-	</url>
-	
+<!-- Posts: 0 links with priority=0.5, changefreq=monthly -->
 
 
 </urlset>

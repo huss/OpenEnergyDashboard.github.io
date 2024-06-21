@@ -1,39 +1,2464 @@
-<div>
-	<h1>What to work on in OED</h1>
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Work Selection</title>
 
-	<p>We understand that when you join OED it can be tricky to figure out what to work on. This can also be the case as
-		you wind down some work and are looking for more. The best way is to reach out to our <a
-			href="mailto:developer@OpenEnergyDashboard.org">developer email list</a> or your OED mentor (if you have
-		one) so we can be of assistance. We will help you find tasks that help the project and are aligned with your
-		interests.</p>
-	<p>What you should work on depends on your background and interests, knowledge of the project and our needs so there
-		is no single answer for what is best that suits everyone. One useful place to look is the <a
-			href="https://github.com/OpenEnergyDashboard/OED/issues" rel="noopener noreferrer">GitHub issues</a> for
-		OED. There you will find issues in many areas that are labeled in ways that may help you identify which to work
-		on. If you are new to the project and want to start with easier tasks then ones labeled "i-good-first-issue" are
-		good ones to consider. The priority ("low", "medium" and "high") also gives some idea of how important an item
-		is to the project. Others indicate what area of the project an issue relates to. It is a good idea to see if a
-		task is assigned to any developers. If it is, then it may be under active development or that person knows the
-		status. You should reach out to that person or the project for more information before working on that task. For
-		related reasons, you should make sure you are assigned a task you are working on so others are aware you are
-		working on it. The project board (see below) should also be updated as needed. If you cannot do these due to
-		permission issues then contact the <a href="mailto:developer@OpenEnergyDashboard.org">developer email list</a>
-		to get the changes made. You can also look at <a href="https://github.com/OpenEnergyDashboard/OED/milestones"
-			rel="noopener noreferrer">OED GitHub milestones</a> to see what items are associated with which release of
-		OED. This is an indication of the time frame that the item needs to be completed. Note that a task that does not
-		show up in the issues, etc. is documenting the code. There are parts that have insufficient comments and it is
-		very valuable to the project to rectify that situation. It is also a way to engage with the code without having
-		to make changes that impact how it runs.</p>
-	<p>The <a href="https://github.com/OpenEnergyDashboard/DesignDocs">design documents</a> (and previously the <a
-			href="https://github.com/OpenEnergyDashboard/OED/projects?type=beta" rel="noopener noreferrer">projects
-			boards</a>) have an overview of major initiatives. It lets you know what work is in
-		progress and what we hope to do next. This generally overlaps the issues but gives a broader picture and is more
-		visual.</p>
-	<p>The <a href="https://openenergydashboard.github.io/contact.html">OED Discord channel</a> for developers (and
-		previously the <a href="https://github.com/OpenEnergyDashboard/OED/discussions"
-			rel="noopener noreferrer">discussion board</a>) . Here you can see the status of development and thought
-		that have come up on issues relating to OED. You are encouraged to subscribe to this discussion by clicking the
-		button on the right side of the page with this discussion group.</p>
-	<p>If you see an item that refers to a developer document and you do not have access then please just request it.
-	</p>
+    <link rel="stylesheet" type="text/css" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="Documentation overview
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+        
+        Developer documentation
+        
+
+
+
+
+
+
+
+
+  Information
+  
+    
+    
+      
+      
+        Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Starting
+  
+    
+    
+      
+      
+    
+    
+      
+      
+        Developer First Steps
+      
+    
+    
+      
+      
+        Steps for WSL
+      
+    
+    
+      
+      
+        Contributor License Agreement
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Creating Pull Requests
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Data
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Work Selection
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Codebase Info
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Learn OED Technology
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        npm scripts
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Technology Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Further Details
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Documentation Expectations
+      
+    
+    
+      
+      
+        Code Organization
+      
+    
+    
+      
+      
+        Developer Details
+      
+    
+    
+      
+      
+        Environment Variables
+      
+    
+    
+      
+      
+        Full Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        No npm/DB Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Code
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Version Release
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Releasing OED
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+    
+
+    
+
+    
+
+
+        
+    
+
+
+	
+		
+
+
+This information is for developers of the OED software so this information is not usually of interest to a general user.
+
+
+
+
+
+
+
+The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.
+
+
+
+
+
+		We understand that when you join OED it can be tricky to figure out what to work on. This can also be the
+			case as
+			you wind down some work and are looking for more. The best way is to reach out to our developer email list or your OED mentor (if you have
+			one) so we can be of assistance. We will help you find tasks that help the project and are aligned with your
+			interests.
+		What you should work on depends on your background and interests, knowledge of the project and our needs so
+			there
+			is no single answer for what is best that suits everyone. One useful place to look is the GitHub issues for
+			OED. There you will find issues in many areas that are labeled in ways that may help you identify which to
+			work
+			on. If you are new to the project and want to start with easier tasks then ones labeled &quot;i-good-first-issue&quot;
+			are
+			good ones to consider. The priority (&quot;low&quot;, &quot;medium&quot; and &quot;high&quot;) also gives some idea of how important an
+			item
+			is to the project. Others indicate what area of the project an issue relates to. It is a good idea to see if
+			a
+			task is assigned to any developers. If it is, then it may be under active development or that person knows
+			the
+			status. You should reach out to that person or the project for more information before working on that task.
+			For
+			related reasons, you should make sure you are assigned a task you are working on so others are aware you are
+			working on it. The project board (see below) should also be updated as needed. If you cannot do these due to
+			permission issues then contact the developer email
+				list
+			to get the changes made. You can also look at OED GitHub
+				milestones to see what items are associated with which release of
+			OED. This is an indication of the time frame that the item needs to be completed. Note that a task that does
+			not
+			show up in the issues, etc. is documenting the code. There are parts that have insufficient comments and it
+			is
+			very valuable to the project to rectify that situation. It is also a way to engage with the code without
+			having
+			to make changes that impact how it runs.
+		The design documents (and previously the projects
+				boards) have an overview of major initiatives. It lets you know what work is in
+			progress and what we hope to do next. This generally overlaps the issues but gives a broader picture and is
+			more
+			visual.
+		The OED Discord channel for developers (and
+			previously the discussion board) . Here you can see the status of development and thought
+			that have come up on issues relating to OED. You are encouraged to subscribe to this discussion by clicking
+			the
+			button on the right side of the page with this discussion group.
+		If you see an item that refers to a developer document and you do not have access then please just request
+			it.">
+	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
+	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
+	
+	
+	
+	<link rel="canonical" href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/work/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Work Selection">
+	<meta property="og:description" content="Documentation overview
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+        
+        Developer documentation
+        
+
+
+
+
+
+
+
+
+  Information
+  
+    
+    
+      
+      
+        Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Starting
+  
+    
+    
+      
+      
+    
+    
+      
+      
+        Developer First Steps
+      
+    
+    
+      
+      
+        Steps for WSL
+      
+    
+    
+      
+      
+        Contributor License Agreement
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Creating Pull Requests
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Data
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Work Selection
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Codebase Info
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Learn OED Technology
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        npm scripts
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Technology Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Further Details
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Documentation Expectations
+      
+    
+    
+      
+      
+        Code Organization
+      
+    
+    
+      
+      
+        Developer Details
+      
+    
+    
+      
+      
+        Environment Variables
+      
+    
+    
+      
+      
+        Full Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        No npm/DB Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Code
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Version Release
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Releasing OED
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+    
+
+    
+
+    
+
+
+        
+    
+
+
+	
+		
+
+
+This information is for developers of the OED software so this information is not usually of interest to a general user.
+
+
+
+
+
+
+
+The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.
+
+
+
+
+
+		We understand that when you join OED it can be tricky to figure out what to work on. This can also be the
+			case as
+			you wind down some work and are looking for more. The best way is to reach out to our developer email list or your OED mentor (if you have
+			one) so we can be of assistance. We will help you find tasks that help the project and are aligned with your
+			interests.
+		What you should work on depends on your background and interests, knowledge of the project and our needs so
+			there
+			is no single answer for what is best that suits everyone. One useful place to look is the GitHub issues for
+			OED. There you will find issues in many areas that are labeled in ways that may help you identify which to
+			work
+			on. If you are new to the project and want to start with easier tasks then ones labeled &quot;i-good-first-issue&quot;
+			are
+			good ones to consider. The priority (&quot;low&quot;, &quot;medium&quot; and &quot;high&quot;) also gives some idea of how important an
+			item
+			is to the project. Others indicate what area of the project an issue relates to. It is a good idea to see if
+			a
+			task is assigned to any developers. If it is, then it may be under active development or that person knows
+			the
+			status. You should reach out to that person or the project for more information before working on that task.
+			For
+			related reasons, you should make sure you are assigned a task you are working on so others are aware you are
+			working on it. The project board (see below) should also be updated as needed. If you cannot do these due to
+			permission issues then contact the developer email
+				list
+			to get the changes made. You can also look at OED GitHub
+				milestones to see what items are associated with which release of
+			OED. This is an indication of the time frame that the item needs to be completed. Note that a task that does
+			not
+			show up in the issues, etc. is documenting the code. There are parts that have insufficient comments and it
+			is
+			very valuable to the project to rectify that situation. It is also a way to engage with the code without
+			having
+			to make changes that impact how it runs.
+		The design documents (and previously the projects
+				boards) have an overview of major initiatives. It lets you know what work is in
+			progress and what we hope to do next. This generally overlaps the issues but gives a broader picture and is
+			more
+			visual.
+		The OED Discord channel for developers (and
+			previously the discussion board) . Here you can see the status of development and thought
+			that have come up on issues relating to OED. You are encouraged to subscribe to this discussion by clicking
+			the
+			button on the right side of the page with this discussion group.
+		If you see an item that refers to a developer document and you do not have access then please just request
+			it.">
+	<meta property="og:url" content="https://huss.github.io/OpenEnergyDashboard.github.io//developer/work/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Open Energy Dashboard">
+	
+	
+
+
+	
+
+	<link type="text/plain" rel="author" href="https://huss.github.io/OpenEnergyDashboard.github.io//humans.txt">
+
+	
+
+	
+
+	<link rel="icon" sizes="32x32" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/OEDIcon22x32.png">
+
+	<link rel="icon" sizes="192x192" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/OEDIcon192x274.png">
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+	
+
+	
+
+
+</head>
+<body id="top-of-page" class="page-fullwidth">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="hide-for-large-up"><a href="https://huss.github.io/OpenEnergyDashboard.github.io/" class="icon-tree"> Open Energy Dashboard</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//">home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//features/">features</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//features/">features by type</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//useAcademic/">features by academic use</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/index/">Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/index/">oed version 1.0.0</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV0.8.0/index/">oed version 0.8.0</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//use/">Adopting</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//news/">info</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//news/">news</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//principles/">project principles</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//free/">free &amp; maintained</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//mission/">mission</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//why/">why exists</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//projectInfo/">project information pages &amp; license</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//name/">why OED name, logo &amp; some history</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+      
+      
+
+      <ul class="right">
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/">Contact</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/index/">developer docs</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//involved/">get involved</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//internship/">becoming a developer</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//studentExperience/">student experience</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+        
+      </ul>
+     
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	<!-- The image at the top varies if regular page or a documentation page. -->
+
+
+
+
+<div id="masthead-no-image-header">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="https://huss.github.io/OpenEnergyDashboard.github.io//" title="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
+				<img src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/logoDeveloper.png" alt="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="https://huss.github.io/OpenEnergyDashboard.github.io/">Start</a>
+ 
+   
+    
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/">developer</a>
+    
+  
+    
+        <a class="current">Work Selection</a>
+    
+  
+</nav>
+
+
+
+
+
+
+
+
+
+	
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				<p class="subheadline">OED Developer Documentation</p>
+				<h1>Work Selection</h1>
+			</header>
+
+			
+
+			<div class="row">
+	
+
+
+
+
+
+<div class="medium-4 medium-push-8 columns" markdown="1">
+    <div class="panel radius" markdown="1">
+        <div style="list-style: none;" class="side-nav">
+            <!-- Add header since not done elsewhere. -->
+            <h4><a href='../index/'>Documentation overview</a></h4>
+
+            
+
+
+
+
+
+
+
+
+<div>
+    
+
+    
+
+    
+        
+        <h5>Developer documentation</h5>
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Information</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/index/">Overview</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
 </div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Starting</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/gettingStarted/">Developer First Steps</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/wslSteps/">Steps for WSL</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/cla/">Contributor License Agreement</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/pr/">Creating Pull Requests</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/testData/">Test Data</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/work/">Work Selection</a></br>
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Codebase Info</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/learningTechnologies/">Learn OED Technology</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/npm/">npm scripts</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/technologies/">Technology Overview</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Further Details</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/codeGuidelines/">Documentation Expectations</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/codeOrganization/">Code Organization</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/devDetails/">Developer Details</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/environment/">Environment Variables</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/fullInstallOutput/">Full Install Output</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/noNPMInstallOutput/">No npm/DB Install Output</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/testing/">Test Code</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Version Release</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/release/">Releasing OED</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+    
+
+    
+
+    
+</div>
+
+        </div>
+    </div>
+</div>
+
+	<div class="medium-8 medium-pull-4 columns" markdown="1">
+		
+
+
+<div class="alert-box info "><p>This information is for developers of the OED software so this information is not usually of interest to a general user.</p>
+</div>
+
+
+
+
+
+
+<div class="alert-box warning "><p>The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.</p>
+</div>
+
+
+
+
+		<p>We understand that when you join OED it can be tricky to figure out what to work on. This can also be the
+			case as
+			you wind down some work and are looking for more. The best way is to reach out to our <a
+				href="mailto:developer@OpenEnergyDashboard.org">developer email list</a> or your OED mentor (if you have
+			one) so we can be of assistance. We will help you find tasks that help the project and are aligned with your
+			interests.</p>
+		<p>What you should work on depends on your background and interests, knowledge of the project and our needs so
+			there
+			is no single answer for what is best that suits everyone. One useful place to look is the <a
+				href="https://github.com/OpenEnergyDashboard/OED/issues" rel="noopener noreferrer">GitHub issues</a> for
+			OED. There you will find issues in many areas that are labeled in ways that may help you identify which to
+			work
+			on. If you are new to the project and want to start with easier tasks then ones labeled "i-good-first-issue"
+			are
+			good ones to consider. The priority ("low", "medium" and "high") also gives some idea of how important an
+			item
+			is to the project. Others indicate what area of the project an issue relates to. It is a good idea to see if
+			a
+			task is assigned to any developers. If it is, then it may be under active development or that person knows
+			the
+			status. You should reach out to that person or the project for more information before working on that task.
+			For
+			related reasons, you should make sure you are assigned a task you are working on so others are aware you are
+			working on it. The project board (see below) should also be updated as needed. If you cannot do these due to
+			permission issues then contact the <a href="mailto:developer@OpenEnergyDashboard.org">developer email
+				list</a>
+			to get the changes made. You can also look at <a
+				href="https://github.com/OpenEnergyDashboard/OED/milestones" rel="noopener noreferrer">OED GitHub
+				milestones</a> to see what items are associated with which release of
+			OED. This is an indication of the time frame that the item needs to be completed. Note that a task that does
+			not
+			show up in the issues, etc. is documenting the code. There are parts that have insufficient comments and it
+			is
+			very valuable to the project to rectify that situation. It is also a way to engage with the code without
+			having
+			to make changes that impact how it runs.</p>
+		<p>The <a href="https://github.com/OpenEnergyDashboard/DesignDocs">design documents</a> (and previously the <a
+				href="https://github.com/OpenEnergyDashboard/OED/projects?type=beta" rel="noopener noreferrer">projects
+				boards</a>) have an overview of major initiatives. It lets you know what work is in
+			progress and what we hope to do next. This generally overlaps the issues but gives a broader picture and is
+			more
+			visual.</p>
+		<p>The <a href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/">OED Discord channel</a> for developers (and
+			previously the <a href="https://github.com/OpenEnergyDashboard/OED/discussions"
+				rel="noopener noreferrer">discussion board</a>) . Here you can see the status of development and thought
+			that have come up on issues relating to OED. You are encouraged to subscribe to this discussion by clicking
+			the
+			button on the right side of the page with this discussion group.</p>
+		<p>If you see an item that refers to a developer document and you do not have access then please just request
+			it.
+		</p>
+	</div>
+</div>
+
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+
+
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              The OED dashboard allows organization to acquire, archive, analyze and display energy/resource usage.
+              <a href="https://huss.github.io/OpenEnergyDashboard.github.io//info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io/"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+
+            <ul class="no-bullet shadow-black">
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created by the OED team using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>. This page is part of the Open Energy Dashboard and is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at <a href="https://www.mozilla.org/en-US/MPL/2.0/" rel="nofollow">https://www.mozilla.org/en-US/MPL/2.0/</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://github.com/OpenEnergyDashboard/OED" target="_blank" class="icon-github" title="Code other repos..."></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/js/javascript.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://huss.github.io/OpenEnergyDashboard.github.io/sitemap.xml
+Sitemap: https://huss.github.io/OpenEnergyDashboard.github.io//sitemap.xml

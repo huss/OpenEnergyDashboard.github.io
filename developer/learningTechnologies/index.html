@@ -1,114 +1,2700 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OED Developer Documentation</title>
+
+    <link rel="stylesheet" type="text/css" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="Documentation overview
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+        
+        Developer documentation
+        
+
+
+
+
+
+
+
+
+  Information
+  
+    
+    
+      
+      
+        Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Starting
+  
+    
+    
+      
+      
+    
+    
+      
+      
+        Developer First Steps
+      
+    
+    
+      
+      
+        Steps for WSL
+      
+    
+    
+      
+      
+        Contributor License Agreement
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Creating Pull Requests
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Data
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Work Selection
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Codebase Info
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Learn OED Technology
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        npm scripts
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Technology Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Further Details
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Documentation Expectations
+      
+    
+    
+      
+      
+        Code Organization
+      
+    
+    
+      
+      
+        Developer Details
+      
+    
+    
+      
+      
+        Environment Variables
+      
+    
+    
+      
+      
+        Full Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        No npm/DB Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Code
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Version Release
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Releasing OED
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+    
+
+    
+
+    
+
+
+        
+    
+
+
+	
+		
+
+
+This information is for developers of the OED software so this information is not usually of interest to a general user.
+
+
+
+
+
+
+
+The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.
+
+
+
+
+
+		As a new developer, it can be daunting to understand and learn all of the technologies used in OED. This
+			page,
+			which everyone is encouraged to update, contains some resources that can be useful in this pursuit. This is
+			not
+			meant to be an exhaustive list nor rate these sites but to provide ones that project members or others have
+			found useful. As always, you can contact the project with questions or for help.
+		The following graphic shows some of the main technologies in OED grouped by where they are used. The &quot;Others&quot;
+			group are technologies that generally span multiple parts of OED and are seen depending on what you are
+			doing.
+			Developers often only need to know the technology in one area or even a subset of that area. This can make
+			the
+			task of learning the needed technologies much more manageable. 
+		
+		You may also find the Technology Overview giving an overview of the front-end
+			process to be useful.
+
+		Git
+		
+			 Pro Git is a comprehensive book
+				with
+				both introductory materials and advanced features that is available for free in electronic formats.
+			
+			 GitHub has extensive help on the
+				particular git platform that OED uses. 
+		
+
+		JavaScript
+		JavaScript is a very popular language for developing web applications. While it shares part of its name with
+			Java,
+			it is a different language. It is used in the back-end of OED. There are many sources of information on
+			JavaScript with some listed here. Note some discuss how to customize web pages and other features that will
+			not
+			be used as heavily in this project.
+		
+			Mozilla has a JavaScript tutorials along with reference materials.
+			codecademy has a Introduction to JavaScript course.
+			 Eloquent JavaScript is an online
+				book that can also be downloaded. 
+			 WIKIBOOKS is
+					a
+					book/tutorial. 
+			w3schools has a JavaScript
+					tutorial.
+			
+			Khan Academy has a JavaScript tutorial but note the early sections on graphics are not as
+				applicable.
+			Learn JS has a JavaScript tutorial
+				that
+				includes online coding with unit testing.
+			This GitHub repo has
+				recommendations for how to learn various programming environments including JavaScript.
+			This list has places to
+				learn JavaScript given different backgrounds.
+		
+
+		TypeScript
+		TypeScript is a language layered on top of JavaScript that adds typing and other features to make JavaScript
+			more
+			secure. It is used in the front-end of OED. There are many sources to learn TypeScript including one from
+			the TypeScript organization.
+		
+
+		JavaScript Promises
+		Promises is a system within JavaScript to help deal with the situation when some actions depend on others. In
+			a
+			nutshell, there are times you want to wait on one action to finish before another begins. This is used
+			throughout the OED code base.
+		
+			Digital Ocean has a Understanding JavaScript Promises.
+			There is another site with a JavaScript
+					Promises introduction (and JavaScript too).
+		
+
+		React
+		React is a JavaScript library for building user interfaces. It is used by many organizations and projects. It
+			is
+			used in the OED front-end.
+		
+			The react community has a React tutorial along with a Quick Start page.
+			
+			This GitHub repo has
+				recommendations for how to learn various programming environments including React.
+		
+
+		Redux
+		Redux is a JavaScript library to help handle state. OED uses it along with React. It is used
+			in the OED front-end.
+		
+			The Redux community has a Redux
+					tutorial along with reference materials.
+		
+
+		Postgres
+		For several reasons, OED uses the PostgreSQL database. While much of database code is standard SQL, some is
+			PostgreSQL specific to access specific features.
+		
+			The PostgreSQL website has extensive
+				information and documentation.
+			OED uses pg-promise to
+				interface with PostgreSQL. Its website and many others have information on this system. As the name
+				implies,
+				it also uses promises.
+		
+
+		Plotly
+		The graphics in OED are produced with Plotly using their JavaScript library. There are many other references for using Plotly.
+
+		Chai and Mocha
+		OED uses the Chai and Mocha testing frameworks to test the OED code
+			base. Both sites have information on usage as well as many other sites. We generally only use a subset of
+			the
+			features that can be seen by looking at our test code.
+
+		Other packages
+		OED directly depends on dozens of npm
+			JavaScript
+			packages and indirectly on many more. Some ones that are used more extensively include node (for running the
+			JavaScript), express (for web requests), moment (for date/time objects), lodash (utility functions),
+			react-intl
+			(internationalization) and webpack (bundle app). You will see these and others in the OED code base. It is
+			often
+			best to learn about them as needed.">
+	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
+	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
+	
+	
+	
+	<link rel="canonical" href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/learningTechnologies/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="OED Developer Documentation">
+	<meta property="og:description" content="Documentation overview
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+        
+        Developer documentation
+        
+
+
+
+
+
+
+
+
+  Information
+  
+    
+    
+      
+      
+        Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Starting
+  
+    
+    
+      
+      
+    
+    
+      
+      
+        Developer First Steps
+      
+    
+    
+      
+      
+        Steps for WSL
+      
+    
+    
+      
+      
+        Contributor License Agreement
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Creating Pull Requests
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Data
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Work Selection
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Codebase Info
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Learn OED Technology
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        npm scripts
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Technology Overview
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Further Details
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Documentation Expectations
+      
+    
+    
+      
+      
+        Code Organization
+      
+    
+    
+      
+      
+        Developer Details
+      
+    
+    
+      
+      
+        Environment Variables
+      
+    
+    
+      
+      
+        Full Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        No npm/DB Install Output
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Test Code
+      
+    
+    
+      
+      
+    
+  
+
+
+        
+
+
+
+
+
+
+
+
+  Version Release
+  
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+        Releasing OED
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+
+    
+
+    
+
+    
+
+
+        
+    
+
+
+	
+		
+
+
+This information is for developers of the OED software so this information is not usually of interest to a general user.
+
+
+
+
+
+
+
+The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.
+
+
+
+
+
+		As a new developer, it can be daunting to understand and learn all of the technologies used in OED. This
+			page,
+			which everyone is encouraged to update, contains some resources that can be useful in this pursuit. This is
+			not
+			meant to be an exhaustive list nor rate these sites but to provide ones that project members or others have
+			found useful. As always, you can contact the project with questions or for help.
+		The following graphic shows some of the main technologies in OED grouped by where they are used. The &quot;Others&quot;
+			group are technologies that generally span multiple parts of OED and are seen depending on what you are
+			doing.
+			Developers often only need to know the technology in one area or even a subset of that area. This can make
+			the
+			task of learning the needed technologies much more manageable. 
+		
+		You may also find the Technology Overview giving an overview of the front-end
+			process to be useful.
+
+		Git
+		
+			 Pro Git is a comprehensive book
+				with
+				both introductory materials and advanced features that is available for free in electronic formats.
+			
+			 GitHub has extensive help on the
+				particular git platform that OED uses. 
+		
+
+		JavaScript
+		JavaScript is a very popular language for developing web applications. While it shares part of its name with
+			Java,
+			it is a different language. It is used in the back-end of OED. There are many sources of information on
+			JavaScript with some listed here. Note some discuss how to customize web pages and other features that will
+			not
+			be used as heavily in this project.
+		
+			Mozilla has a JavaScript tutorials along with reference materials.
+			codecademy has a Introduction to JavaScript course.
+			 Eloquent JavaScript is an online
+				book that can also be downloaded. 
+			 WIKIBOOKS is
+					a
+					book/tutorial. 
+			w3schools has a JavaScript
+					tutorial.
+			
+			Khan Academy has a JavaScript tutorial but note the early sections on graphics are not as
+				applicable.
+			Learn JS has a JavaScript tutorial
+				that
+				includes online coding with unit testing.
+			This GitHub repo has
+				recommendations for how to learn various programming environments including JavaScript.
+			This list has places to
+				learn JavaScript given different backgrounds.
+		
+
+		TypeScript
+		TypeScript is a language layered on top of JavaScript that adds typing and other features to make JavaScript
+			more
+			secure. It is used in the front-end of OED. There are many sources to learn TypeScript including one from
+			the TypeScript organization.
+		
+
+		JavaScript Promises
+		Promises is a system within JavaScript to help deal with the situation when some actions depend on others. In
+			a
+			nutshell, there are times you want to wait on one action to finish before another begins. This is used
+			throughout the OED code base.
+		
+			Digital Ocean has a Understanding JavaScript Promises.
+			There is another site with a JavaScript
+					Promises introduction (and JavaScript too).
+		
+
+		React
+		React is a JavaScript library for building user interfaces. It is used by many organizations and projects. It
+			is
+			used in the OED front-end.
+		
+			The react community has a React tutorial along with a Quick Start page.
+			
+			This GitHub repo has
+				recommendations for how to learn various programming environments including React.
+		
+
+		Redux
+		Redux is a JavaScript library to help handle state. OED uses it along with React. It is used
+			in the OED front-end.
+		
+			The Redux community has a Redux
+					tutorial along with reference materials.
+		
+
+		Postgres
+		For several reasons, OED uses the PostgreSQL database. While much of database code is standard SQL, some is
+			PostgreSQL specific to access specific features.
+		
+			The PostgreSQL website has extensive
+				information and documentation.
+			OED uses pg-promise to
+				interface with PostgreSQL. Its website and many others have information on this system. As the name
+				implies,
+				it also uses promises.
+		
+
+		Plotly
+		The graphics in OED are produced with Plotly using their JavaScript library. There are many other references for using Plotly.
+
+		Chai and Mocha
+		OED uses the Chai and Mocha testing frameworks to test the OED code
+			base. Both sites have information on usage as well as many other sites. We generally only use a subset of
+			the
+			features that can be seen by looking at our test code.
+
+		Other packages
+		OED directly depends on dozens of npm
+			JavaScript
+			packages and indirectly on many more. Some ones that are used more extensively include node (for running the
+			JavaScript), express (for web requests), moment (for date/time objects), lodash (utility functions),
+			react-intl
+			(internationalization) and webpack (bundle app). You will see these and others in the OED code base. It is
+			often
+			best to learn about them as needed.">
+	<meta property="og:url" content="https://huss.github.io/OpenEnergyDashboard.github.io//developer/learningTechnologies/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Open Energy Dashboard">
+	
+	
+
+
+	
+
+	<link type="text/plain" rel="author" href="https://huss.github.io/OpenEnergyDashboard.github.io//humans.txt">
+
+	
+
+	
+
+	<link rel="icon" sizes="32x32" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/OEDIcon22x32.png">
+
+	<link rel="icon" sizes="192x192" href="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/OEDIcon192x274.png">
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+	
+
+	
+
+
+</head>
+<body id="top-of-page" class="page-fullwidth">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="hide-for-large-up"><a href="https://huss.github.io/OpenEnergyDashboard.github.io/" class="icon-tree"> Open Energy Dashboard</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//">home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//features/">features</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//features/">features by type</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//useAcademic/">features by academic use</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/index/">Documentation</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/index/">oed version 1.0.0</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV0.8.0/index/">oed version 0.8.0</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//use/">Adopting</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//news/">info</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//news/">news</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//principles/">project principles</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//free/">free &amp; maintained</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//mission/">mission</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//why/">why exists</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//projectInfo/">project information pages &amp; license</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//name/">why OED name, logo &amp; some history</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+      
+      
+
+      <ul class="right">
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/">Contact</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/index/">developer docs</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+
+              <li class="divider"></li>
+              <li class="has-dropdown">
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io//involved/">get involved</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//internship/">becoming a developer</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io//studentExperience/">student experience</a></li>
+                    
+                  </ul>
+
+              </li>
+            
+          
+        
+        
+      </ul>
+     
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	<!-- The image at the top varies if regular page or a documentation page. -->
+
+
+
+
+<div id="masthead-no-image-header">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="https://huss.github.io/OpenEnergyDashboard.github.io//" title="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
+				<img src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/img/logoDeveloper.png" alt="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="https://huss.github.io/OpenEnergyDashboard.github.io/">Start</a>
+ 
+   
+    
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/">developer</a>
+    
+  
+    
+        <a class="current">Learn OED Technology</a>
+    
+  
+</nav>
+
+
+
+
+
+
+
+
+
+	
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				<p class="subheadline">Learning Technology</p>
+				<h1>Learn OED Technology</h1>
+			</header>
+
+			
+
+			<div class="row">
+	
+
+
+
+
+
+<div class="medium-4 medium-push-8 columns" markdown="1">
+    <div class="panel radius" markdown="1">
+        <div style="list-style: none;" class="side-nav">
+            <!-- Add header since not done elsewhere. -->
+            <h4><a href='../index/'>Documentation overview</a></h4>
+
+            
+
+
+
+
+
+
+
+
 <div>
-	<h1>Learning OED Technologies</h1>
-	<p>As a new developer, it can be daunting to understand and learn all of the technologies used in OED. This page,
-		which everyone is encouraged to update, contains some resources that can be useful in this pursuit. This is not
-		meant to be an exhaustive list nor rate these sites but to provide ones that project members or others have
-		found useful. As always, you can contact the project with questions or for help.</p>
-	<p>The following graphic shows some of the main technologies in OED grouped by where they are used. The "Others"
-		group are technologies that generally span multiple parts of OED and are seen depending on what you are doing.
-		Developers often only need to know the technology in one area or even a subset of that area. This can make the
-		task of learning the needed technologies much more manageable. </p>
-	<p><img alt="OED technologies" src="./images/OEDTechnology.jpg"></p>
-	<p>You may also find the <a href="technologies.html">Technology Overview</a> giving an overview of the front-end
-		process to be useful.</p>
+    
 
-	<h2>Git</h2>
-	<ul>
-		<li> <a href="https://git-scm.com/book/en/v2" rel="noopener noreferrer">Pro Git</a> is a comprehensive book with
-			both introductory materials and advanced features that is available for free in electronic formats. </li>
-		<li> <a href="https://docs.github.com/en" rel="noopener noreferrer">GitHub</a> has extensive help on the
-			particular git platform that OED uses. </li>
-	</ul>
+    
 
-	<h2>JavaScript</h2>
-	<p>JavaScript is a very popular language for developing web applications. While it shares part of its name with Java,
-		it is a different language. It is used in the back-end of OED. There are many sources of information on
-		JavaScript with some listed here. Note some discuss how to customize web pages and other features that will not
-		be used as heavily in this project.</p>
-	<ul>
-		<li>Mozilla has a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-				rel="noopener noreferrer">JavaScript tutorials along with reference materials</a>.</li>
-		<li>codecademy has a <a
-				href="https://www.codecademy.com/learn/introduction-to-javascript?composer_curriculum_redirect=javascript"
-				rel="noopener noreferrer">Introduction to JavaScript</a> course.</li>
-		<li> <a href="http://eloquentjavascript.net/" rel="noopener noreferrer">Eloquent JavaScript</a> is an online
-			book that can also be downloaded. </li>
-		<li> <a href="https://en.wikibooks.org/wiki/JavaScript/Introduction" rel="noopener noreferrer">WIKIBOOKS is a
-				book/tutorial</a>. </li>
-		<li>w3schools has a <a href="https://www.w3schools.com/js/" rel="noopener noreferrer">JavaScript tutorial</a>.
-		</li>
-		<li>Khan Academy has a <a href="https://www.khanacademy.org/computing/computer-programming/programming"
-				rel="noopener noreferrer">JavaScript tutorial</a> but note the early sections on graphics are not as
-			applicable.</li>
-		<li>Learn JS has a <a href="https://www.learn-js.org/" rel="noopener noreferrer">JavaScript tutorial</a> that
-			includes online coding with unit testing.</li>
-		<li><a href="https://github.com/practical-tutorials/project-based-learning">This GitHub repo</a> has
-			recommendations for how to learn various programming environments including JavaScript.</li>
-		<li><a href="https://www.thebalancecareers.com/learn-javascript-online-2071405">This list</a> has places to
-			learn JavaScript given different backgrounds.</li>
-	</ul>
+    
+        
+        <h5>Developer documentation</h5>
+        
 
-	<h2>TypeScript</h2>
-	<p>TypeScript is a language layered on top of JavaScript that adds typing and other features to make JavaScript more
-		secure. It is used in the front-end of OED. There are many sources to learn TypeScript including one from the <a
-			href="https://www.typescriptlang.org/docs/" rel="noopener noreferrer">TypeScript organization</a>.</p>
 
-	<h2>JavaScript Promises</h2>
-	<p>Promises is a system within JavaScript to help deal with the situation when some actions depend on others. In a
-		nutshell, there are times you want to wait on one action to finish before another begins. This is used
-		throughout the OED code base.</p>
-	<ul>
-		<li>Digital Ocean has a <a
-				href="https://www.digitalocean.com/community/tutorials/understanding-javascript-promises"
-				rel="noopener noreferrer">Understanding JavaScript Promises</a>.</li>
-		<li>There is another site with a <a href="https://javascript.info/async" rel="noopener noreferrer">JavaScript
-				Promises</a> introduction (and JavaScript too).</li>
-	</ul>
 
-	<h2>React</h2>
-	<p>React is a JavaScript library for building user interfaces. It is used by many organizations and projects. It is
-		used in the OED front-end.</p>
-	<ul>
-		<li>The react community has a <a href="https://reactjs.org/tutorial/tutorial.html"
-				rel="noopener noreferrer">React tutorial</a> along with a <a
-				href="https://react.dev/learn" rel="noopener noreferrer">Quick Start</a> page.
-		</li>
-		<li><a href="https://github.com/practical-tutorials/project-based-learning">This GitHub repo</a> has
-			recommendations for how to learn various programming environments including React.</li>
-	</ul>
 
-	<h2>Redux</h2>
-	<p>Redux is a JavaScript library to help handle state. OED uses it along with React. It is used
-		in the OED front-end.</p>
-	<ul>
-		<li>The Redux community has a <a href="https://redux.js.org/tutorials/index" rel="noopener noreferrer">Redux
-				tutorial</a> along with reference materials.</li>
-	</ul>
 
-	<h2>Postgres</h2>
-	<p>For several reasons, OED uses the PostgreSQL database. While much of database code is standard SQL, some is
-		PostgreSQL specific to access specific features.</p>
-	<ul>
-		<li>The PostgreSQL <a href="https://www.postgresql.org/" rel="noopener noreferrer">website</a> has extensive
-			information and documentation.</li>
-		<li>OED uses <a href="https://github.com/vitaly-t/pg-promise" rel="noopener noreferrer">pg-promise</a> to
-			interface with PostgreSQL. Its website and many others have information on this system. As the name implies,
-			it also uses promises.</li>
-	</ul>
 
-	<h2>Plotly</h2>
-	<p>The graphics in OED are produced with Plotly using their <a href="https://plotly.com/javascript/"
-			rel="noopener noreferrer">JavaScript library</a>. There are many other references for using Plotly.</p>
 
-	<h2>Chai and Mocha</h2>
-	<p>OED uses the <a href="https://www.chaijs.com/" rel="noopener noreferrer">Chai</a> and <a
-			href="https://mochajs.org/" rel="noopener noreferrer">Mocha</a> testing frameworks to test the OED code
-		base. Both sites have information on usage as well as many other sites. We generally only use a subset of the
-		features that can be seen by looking at our test code.</p>
+<div style="padding-left: 1em;">
+  <h6>Information</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/index/">Overview</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
 
-	<h2>Other packages</h2>
-	<p>OED directly depends on dozens of <a href="https://www.npmjs.com/" rrel="noopener noreferrer">npm</a> JavaScript
-		packages and indirectly on many more. Some ones that are used more extensively include node (for running the
-		JavaScript), express (for web requests), moment (for date/time objects), lodash (utility functions), react-intl
-		(internationalization) and webpack (bundle app). You will see these and others in the OED code base. It is often
-		best to learn about them as needed.</p>
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Starting</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/gettingStarted/">Developer First Steps</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/wslSteps/">Steps for WSL</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/cla/">Contributor License Agreement</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/pr/">Creating Pull Requests</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/testData/">Test Data</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/work/">Work Selection</a></br>
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Codebase Info</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/learningTechnologies/">Learn OED Technology</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/npm/">npm scripts</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/technologies/">Technology Overview</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Further Details</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/codeGuidelines/">Documentation Expectations</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/codeOrganization/">Code Organization</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/devDetails/">Developer Details</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/environment/">Environment Variables</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/fullInstallOutput/">Full Install Output</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/noNPMInstallOutput/">No npm/DB Install Output</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/testing/">Test Code</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+        
+
+
+
+
+
+
+
+<div style="padding-left: 1em;">
+  <h6>Version Release</h6>
+  <div style="padding-left: 1em;">
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+        <a href="https://huss.github.io/OpenEnergyDashboard.github.io//developer/release/">Releasing OED</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
+  </div>
+</div>
+
+    
+
+    
+
+    
+</div>
+
+        </div>
+    </div>
+</div>
+
+	<div class="medium-8 medium-pull-4 columns" markdown="1">
+		
+
+
+<div class="alert-box info "><p>This information is for developers of the OED software so this information is not usually of interest to a general user.</p>
+</div>
+
+
+
+
+
+
+<div class="alert-box warning "><p>The update to the Redux Toolkit (RTK) is not yet reflected in the documentation. As a result, some information may be out of date.</p>
+</div>
+
+
+
+
+		<p>As a new developer, it can be daunting to understand and learn all of the technologies used in OED. This
+			page,
+			which everyone is encouraged to update, contains some resources that can be useful in this pursuit. This is
+			not
+			meant to be an exhaustive list nor rate these sites but to provide ones that project members or others have
+			found useful. As always, you can contact the project with questions or for help.</p>
+		<p>The following graphic shows some of the main technologies in OED grouped by where they are used. The "Others"
+			group are technologies that generally span multiple parts of OED and are seen depending on what you are
+			doing.
+			Developers often only need to know the technology in one area or even a subset of that area. This can make
+			the
+			task of learning the needed technologies much more manageable. </p>
+		<p><img alt="OED technologies" src="../images/OEDTechnology.jpg"></p>
+		<p>You may also find the <a href="../technologies/">Technology Overview</a> giving an overview of the front-end
+			process to be useful.</p>
+
+		<h2>Git</h2>
+		<ul>
+			<li> <a href="https://git-scm.com/book/en/v2" rel="noopener noreferrer">Pro Git</a> is a comprehensive book
+				with
+				both introductory materials and advanced features that is available for free in electronic formats.
+			</li>
+			<li> <a href="https://docs.github.com/en" rel="noopener noreferrer">GitHub</a> has extensive help on the
+				particular git platform that OED uses. </li>
+		</ul>
+
+		<h2>JavaScript</h2>
+		<p>JavaScript is a very popular language for developing web applications. While it shares part of its name with
+			Java,
+			it is a different language. It is used in the back-end of OED. There are many sources of information on
+			JavaScript with some listed here. Note some discuss how to customize web pages and other features that will
+			not
+			be used as heavily in this project.</p>
+		<ul>
+			<li>Mozilla has a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+					rel="noopener noreferrer">JavaScript tutorials along with reference materials</a>.</li>
+			<li>codecademy has a <a
+					href="https://www.codecademy.com/learn/introduction-to-javascript?composer_curriculum_redirect=javascript"
+					rel="noopener noreferrer">Introduction to JavaScript</a> course.</li>
+			<li> <a href="http://eloquentjavascript.net/" rel="noopener noreferrer">Eloquent JavaScript</a> is an online
+				book that can also be downloaded. </li>
+			<li> <a href="https://en.wikibooks.org/wiki/JavaScript/Introduction" rel="noopener noreferrer">WIKIBOOKS is
+					a
+					book/tutorial</a>. </li>
+			<li>w3schools has a <a href="https://www.w3schools.com/js/" rel="noopener noreferrer">JavaScript
+					tutorial</a>.
+			</li>
+			<li>Khan Academy has a <a href="https://www.khanacademy.org/computing/computer-programming/programming"
+					rel="noopener noreferrer">JavaScript tutorial</a> but note the early sections on graphics are not as
+				applicable.</li>
+			<li>Learn JS has a <a href="https://www.learn-js.org/" rel="noopener noreferrer">JavaScript tutorial</a>
+				that
+				includes online coding with unit testing.</li>
+			<li><a href="https://github.com/practical-tutorials/project-based-learning">This GitHub repo</a> has
+				recommendations for how to learn various programming environments including JavaScript.</li>
+			<li><a href="https://www.thebalancecareers.com/learn-javascript-online-2071405">This list</a> has places to
+				learn JavaScript given different backgrounds.</li>
+		</ul>
+
+		<h2>TypeScript</h2>
+		<p>TypeScript is a language layered on top of JavaScript that adds typing and other features to make JavaScript
+			more
+			secure. It is used in the front-end of OED. There are many sources to learn TypeScript including one from
+			the <a href="https://www.typescriptlang.org/docs/" rel="noopener noreferrer">TypeScript organization</a>.
+		</p>
+
+		<h2>JavaScript Promises</h2>
+		<p>Promises is a system within JavaScript to help deal with the situation when some actions depend on others. In
+			a
+			nutshell, there are times you want to wait on one action to finish before another begins. This is used
+			throughout the OED code base.</p>
+		<ul>
+			<li>Digital Ocean has a <a
+					href="https://www.digitalocean.com/community/tutorials/understanding-javascript-promises"
+					rel="noopener noreferrer">Understanding JavaScript Promises</a>.</li>
+			<li>There is another site with a <a href="https://javascript.info/async"
+					rel="noopener noreferrer">JavaScript
+					Promises</a> introduction (and JavaScript too).</li>
+		</ul>
+
+		<h2>React</h2>
+		<p>React is a JavaScript library for building user interfaces. It is used by many organizations and projects. It
+			is
+			used in the OED front-end.</p>
+		<ul>
+			<li>The react community has a <a href="https://reactjs.org/tutorial/tutorial.html"
+					rel="noopener noreferrer">React tutorial</a> along with a <a href="https://react.dev/learn"
+					rel="noopener noreferrer">Quick Start</a> page.
+			</li>
+			<li><a href="https://github.com/practical-tutorials/project-based-learning">This GitHub repo</a> has
+				recommendations for how to learn various programming environments including React.</li>
+		</ul>
+
+		<h2>Redux</h2>
+		<p>Redux is a JavaScript library to help handle state. OED uses it along with React. It is used
+			in the OED front-end.</p>
+		<ul>
+			<li>The Redux community has a <a href="https://redux.js.org/tutorials/index" rel="noopener noreferrer">Redux
+					tutorial</a> along with reference materials.</li>
+		</ul>
+
+		<h2>Postgres</h2>
+		<p>For several reasons, OED uses the PostgreSQL database. While much of database code is standard SQL, some is
+			PostgreSQL specific to access specific features.</p>
+		<ul>
+			<li>The PostgreSQL <a href="https://www.postgresql.org/" rel="noopener noreferrer">website</a> has extensive
+				information and documentation.</li>
+			<li>OED uses <a href="https://github.com/vitaly-t/pg-promise" rel="noopener noreferrer">pg-promise</a> to
+				interface with PostgreSQL. Its website and many others have information on this system. As the name
+				implies,
+				it also uses promises.</li>
+		</ul>
+
+		<h2>Plotly</h2>
+		<p>The graphics in OED are produced with Plotly using their <a href="https://plotly.com/javascript/"
+				rel="noopener noreferrer">JavaScript library</a>. There are many other references for using Plotly.</p>
+
+		<h2>Chai and Mocha</h2>
+		<p>OED uses the <a href="https://www.chaijs.com/" rel="noopener noreferrer">Chai</a> and <a
+				href="https://mochajs.org/" rel="noopener noreferrer">Mocha</a> testing frameworks to test the OED code
+			base. Both sites have information on usage as well as many other sites. We generally only use a subset of
+			the
+			features that can be seen by looking at our test code.</p>
+
+		<h2>Other packages</h2>
+		<p>OED directly depends on dozens of <a href="https://www.npmjs.com/" rrel="noopener noreferrer">npm</a>
+			JavaScript
+			packages and indirectly on many more. Some ones that are used more extensively include node (for running the
+			JavaScript), express (for web requests), moment (for date/time objects), lodash (utility functions),
+			react-intl
+			(internationalization) and webpack (bundle app). You will see these and others in the OED code base. It is
+			often
+			best to learn about them as needed.</p>
+	</div>
+</div>
+
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
+
+
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              The OED dashboard allows organization to acquire, archive, analyze and display energy/resource usage.
+              <a href="https://huss.github.io/OpenEnergyDashboard.github.io//info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io/"  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+
+            <ul class="no-bullet shadow-black">
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created by the OED team using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>. This page is part of the Open Energy Dashboard and is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at <a href="https://www.mozilla.org/en-US/MPL/2.0/" rel="nofollow">https://www.mozilla.org/en-US/MPL/2.0/</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://github.com/OpenEnergyDashboard/OED" target="_blank" class="icon-github" title="Code other repos..."></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="https://huss.github.io/OpenEnergyDashboard.github.io//assets/js/javascript.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
