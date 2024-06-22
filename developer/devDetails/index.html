@@ -58,6 +58,7 @@
   
     
     
+    
       
       
         Overview
@@ -145,6 +146,7 @@
 
   Starting
   
+    
     
     
       
@@ -246,6 +248,7 @@
   
     
     
+    
       
       
     
@@ -337,6 +340,7 @@
 
   Further Details
   
+    
     
     
       
@@ -438,6 +442,7 @@
 
   Version Release
   
+    
     
     
       
@@ -1026,6 +1031,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
   
     
     
+    
       
       
         Overview
@@ -1113,6 +1119,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 
   Starting
   
+    
     
     
       
@@ -1214,6 +1221,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
   
     
     
+    
       
       
     
@@ -1305,6 +1313,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 
   Further Details
   
+    
     
     
       
@@ -1406,6 +1415,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 
   Version Release
   
+    
     
     
       
@@ -2417,6 +2427,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 <div style="padding-left: 1em;">
   <h6>Information</h6>
   <div style="padding-left: 1em;">
+    <!-- TODO check that this actually is looping as desired across collections. -->
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
           This adds a description if it is the documentation page (vs documentation sidebar).
@@ -2542,6 +2553,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 <div style="padding-left: 1em;">
   <h6>Starting</h6>
   <div style="padding-left: 1em;">
+    <!-- TODO check that this actually is looping as desired across collections. -->
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
           This adds a description if it is the documentation page (vs documentation sidebar).
@@ -2677,6 +2689,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 <div style="padding-left: 1em;">
   <h6>Codebase Info</h6>
   <div style="padding-left: 1em;">
+    <!-- TODO check that this actually is looping as desired across collections. -->
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
           This adds a description if it is the documentation page (vs documentation sidebar).
@@ -2806,6 +2819,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 <div style="padding-left: 1em;">
   <h6>Further Details</h6>
   <div style="padding-left: 1em;">
+    <!-- TODO check that this actually is looping as desired across collections. -->
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
           This adds a description if it is the documentation page (vs documentation sidebar).
@@ -2943,6 +2957,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 <div style="padding-left: 1em;">
   <h6>Version Release</h6>
   <div style="padding-left: 1em;">
+    <!-- TODO check that this actually is looping as desired across collections. -->
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
           This adds a description if it is the documentation page (vs documentation sidebar).
@@ -3191,7 +3206,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 			webpack to start the rebuild.</p>
 		<p>In several cases, developers on Windows have reported not having the code rebuild on save. It turned out
 			that the
-			code was not on the WSL/Linux partition (generally under /home). As described in <a href="wslSteps.html">WSL
+			code was not on the WSL/Linux partition (generally under /home). As described in <a href="../wslSteps/">WSL
 				on
 				Windows</a>, it is important to do this properly.</p>
 
@@ -3202,7 +3217,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 		<ul>
 			<li>
 				To access the database from the docker database container (see <a
-					href="gettingStarted.html#VSCInfo">info on
+					href="../gettingStarted/#VSCInfo">info on
 					accessing containers)</a>, execute the following command: <code>psql -U oed</code>. You will now
 				be in
 				the Postgres command line for the OED database. It is assumed that you know some SQL and Postgres
@@ -3268,7 +3283,7 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 			run testing (or you want to focus on one test at a time that fails). Running all the tests is much
 			slower than
 			running a single test file. Thus, to run a single test, in the web/vsc docker container (see <a
-				href="gettingStarted.html#VSCInfo">info on accessing container</a>) do:<br>
+				href="../gettingStarted/#VSCInfo">info on accessing container</a>) do:<br>
 			<code>npm run testsome &lt;first test&gt; [&lt;second test&gt;] </code><br> where you replace &lt; xxxx
 			test&gt;
 			with the path to the test file you want to run and [ ] indicates this is optional and you can repeat as
@@ -3365,11 +3380,11 @@ type SomePropsWithIntl = SomeProps &amp;amp; InjectedIntlProps;
 
 		<h2 id="environment">OED environment variables</h2>
 		<p>If you want to know about the environment variables that control OED then see the <a
-				href="./environment.html">environment page</a>.</p>
+				href="../environment/">environment page</a>.</p>
 
 		<h2 id="scripts">OED Scripts</h2>
 		<p>OED has a number of scripts that are run via commands in the package.json file. A complete listing with
-			descriptions is on the <a href="npm.html">NPM script</a> page.</p>
+			descriptions is on the <a href="../npm/">NPM script</a> page.</p>
 
 		<h2 id="migrate">Migrating OED</h2>
 		<p>The script <code>src/scripts/updateOED.sh</code> should update all dependencies and migrate the OED
@@ -3525,7 +3540,7 @@ type SomePropsWithIntl = SomeProps &amp; InjectedIntlProps;
 			current versions of OED software. The <code>keep_node_modules</code> parameter was left for backward
 			compatibility and in the unlikely case where a developer wishes to use it. As expected, the steps and
 			output is
-			different when there is no node module installation as seen in <a href="noNPMInstallOutput.html">skipping
+			different when there is no node module installation as seen in <a href="../noNPMInstallOutput/">skipping
 				NPM
 				install output</a>.
 		</p>
