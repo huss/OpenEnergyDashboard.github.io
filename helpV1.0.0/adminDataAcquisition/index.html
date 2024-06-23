@@ -293,6 +293,10 @@
       
       
     
+    
+      
+      
+    
   
 
 
@@ -557,6 +561,10 @@
       
       
     
+    
+      
+      
+    
   
 
 
@@ -679,6 +687,10 @@
       
       
         Reading Import
+      
+    
+    
+      
       
     
     
@@ -1041,6 +1053,10 @@
       
       
     
+    
+      
+      
+    
   
 
 
@@ -1063,18 +1079,6 @@
             
             
             V1.0.0
-            
-            
-            
-            V0.8.0
-            
-            
-            
-            V0.7.0
-            
-            
-            
-            V0.6.0
             
         
         Current page is V1.0.0.
@@ -1421,6 +1425,10 @@ These features are only available to select people who oversee the OED site (cal
       
       
     
+    
+      
+      
+    
   
 
 
@@ -1685,6 +1693,10 @@ These features are only available to select people who oversee the OED site (cal
       
       
     
+    
+      
+      
+    
   
 
 
@@ -1807,6 +1819,10 @@ These features are only available to select people who oversee the OED site (cal
       
       
         Reading Import
+      
+    
+    
+      
       
     
     
@@ -2169,6 +2185,10 @@ These features are only available to select people who oversee the OED site (cal
       
       
     
+    
+      
+      
+    
   
 
 
@@ -2191,18 +2211,6 @@ These features are only available to select people who oversee the OED site (cal
             
             
             V1.0.0
-            
-            
-            
-            V0.8.0
-            
-            
-            
-            V0.7.0
-            
-            
-            
-            V0.6.0
             
         
         Current page is V1.0.0.
@@ -2658,7 +2666,8 @@ These features are only available to select people who oversee the OED site (cal
 
 
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <a href="https://huss.github.io/OpenEnergyDashboard.github.io">Start</a>
+  <!-- Added / at end of URL to avoid redirect. -->
+ <a href="https://huss.github.io/OpenEnergyDashboard.github.io/">Start</a>
  
    
     
@@ -2905,6 +2914,12 @@ These features are only available to select people who oversee the OED site (cal
       
       
         <a href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/adminUnitInfo/">Units & Conversions</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
       
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
@@ -3441,6 +3456,12 @@ These features are only available to select people who oversee the OED site (cal
       
       
     
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
   </div>
 </div>
 
@@ -3611,6 +3632,12 @@ These features are only available to select people who oversee the OED site (cal
       
       
         <a href="https://huss.github.io/OpenEnergyDashboard.github.io//helpV1.0.0/adminReadingsImport/">Reading Import</a></br>
+      
+    
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
       
     
     <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
@@ -4141,6 +4168,12 @@ These features are only available to select people who oversee the OED site (cal
       
       
     
+    <!-- Cannot nest if with for so do for every page but ignored if not a link to show. 
+          This adds a description if it is the documentation page (vs documentation sidebar).
+          It will be an empty string if not a documentation page true. -->
+      
+      
+    
   </div>
 </div>
 
@@ -4163,18 +4196,6 @@ These features are only available to select people who oversee the OED site (cal
             
             <!-- TODO see if can add check if the file exists in other version and skip if not.  -->
             <a href='../../helpV1.0.0/adminDataAcquisition'>V1.0.0</a></br>
-            
-            
-            <!-- TODO see if can add check if the file exists in other version and skip if not.  -->
-            <a href='../../helpV0.8.0/adminDataAcquisition'>V0.8.0</a></br>
-            
-            
-            <!-- TODO see if can add check if the file exists in other version and skip if not.  -->
-            <a href='../../helpV0.7.0/adminDataAcquisition'>V0.7.0</a></br>
-            
-            
-            <!-- TODO see if can add check if the file exists in other version and skip if not.  -->
-            <a href='../../helpV0.6.0/adminDataAcquisition'>V0.6.0</a></br>
             
         </div>
         Current page is V1.0.0.
@@ -4208,7 +4229,7 @@ These features are only available to select people who oversee the OED site (cal
 			described below. Note
 			that it is possible to do this for other meter
 			systems. We are willing to either work with you (or another party) to create the needed code or, if it
-			seems appropriate, create this code for a new type of device. Please <a href="/contact/">contact us</a>
+			seems appropriate, create this code for a new type of device. Please <a href="https://huss.github.io/OpenEnergyDashboard.github.io/contact/">contact us</a>
 			if that is of interest.</p>
 
 		<h2 id="usage">Usage</h2>
@@ -4229,7 +4250,7 @@ These features are only available to select people who oversee the OED site (cal
 			electricity usage. OED can acquire eGauge meter data as described <a href="../adminEgauge/">here</a>.</p>
 
 		<h3>Obvius</h3>
-		<p><a href="http://www.obvius.com/" rel="noopener noreferrer">Obvius
+		<p><a href="https://leviton.com/products/commercial/submetering/data-acquisition" rel="noopener noreferrer">Obvius
 				AcquiSuite</a> acquires meter data using Obvius hardware for a large number of metering devices. The
 			system
 			has the ability to provide this data to other systems. OED uses the push mechanism where AcquiSuite
