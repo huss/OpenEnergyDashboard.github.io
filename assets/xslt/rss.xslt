@@ -53,7 +53,7 @@
 
 	
 
-	<link type="text/plain" rel="author" href="https://huss.github.io/OpenEnergyDashboard.github.io/humans.txt">
+	<!-- <link type="text/plain" rel="author" href="https://huss.github.io/OpenEnergyDashboard.github.io/humans.txt"> -->
 
 	
 
