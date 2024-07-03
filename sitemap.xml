@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 33 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 29 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/404.html</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/archive/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -33,21 +33,6 @@
 	</url>
 	
 
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/atom.xml</loc>
-	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
 	
 
 	
@@ -56,7 +41,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/contact/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -71,7 +56,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/demo/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,22 +71,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/features/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/feed.xml</loc>
-	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -116,22 +86,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/free/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/humans.txt</loc>
-	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +101,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/blog/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,7 +116,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -176,7 +131,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/internship/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +146,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/involved/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -206,7 +161,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/mission/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -221,7 +176,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/name/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -236,7 +191,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/news/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -251,7 +206,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/principles/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -266,22 +221,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/projectInfo/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/redirect-page/</loc>
-	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -296,7 +236,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/robots.txt</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -315,7 +255,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/search/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -330,7 +270,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/sitemap.xml</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -345,7 +285,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/studentExperience/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -362,7 +302,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/use/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -377,7 +317,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/useAcademic/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -392,7 +332,7 @@
 	<url>
 	<loc>https://huss.github.io/OpenEnergyDashboard.github.io/why/</loc>
 	
-		<lastmod>2024-06-24T12:26:12-05:00</lastmod>
+		<lastmod>2024-07-03T07:23:53-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

@@ -164,29 +164,29 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV1.0.0/user/">Documentation</a>
+                <a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV1_0_0/user/">Documentation</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV1.0.0/user/">oed version 1.0.0</a></li>
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV1_0_0/user/">oed version 1.0.0</a></li>
                     
 
                       
 
-                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0.8.0/user/">oed version 0.8.0</a></li>
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0_8_0/user/">oed version 0.8.0</a></li>
                     
 
                       
 
-                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0.7.0/user/">oed version 0.7.0</a></li>
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0_7_0/user/">oed version 0.7.0</a></li>
                     
 
                       
 
-                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0.6.0/user/">oed version 0.6.0</a></li>
+                      <li><a  href="https://huss.github.io/OpenEnergyDashboard.github.io/helpV0_6_0/user/">oed version 0.6.0</a></li>
                     
                   </ul>
 
@@ -432,7 +432,7 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://huss.github.io/OpenEnergyDashboard.github.io/" title="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
+			<a id="logo" title="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
 				<img src="https://huss.github.io/OpenEnergyDashboard.github.io/assets/img/logo.png" alt="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
 			</a>
 		</div><!-- /.small-12.columns -->
@@ -497,89 +497,102 @@
 </ul>
 
 		<xsl:text disable-output-escaping="yes"><![CDATA[
-		    <div id="up-to-top" class="row">
-      <div class="small-12 columns" style="text-align: right;">
-        <a class="iconfont" href="#top-of-page">&#xf108;</a>
-      </div><!-- /.small-12.columns -->
+		<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+<footer id="footer-content" class="bg-grau">
+  <div id="footer">
+    <div class="row">
+      <noscript>
+        
+
+
+<div class="alert-box warning "><p>Some aspect of this site will not work and others will work better if you enable JavaScript.</p>
+</div>
+
+
+      </noscript>
+    </div>
+
+    <div class="row">
+      <div class="medium-6 large-5 columns">
+        <h5 class="shadow-black">About This Site</h5>
+
+        <p class="shadow-black">
+          The OED dashboard allows organization to acquire, archive, analyze and display energy/resource usage.
+          <a href="https://huss.github.io/OpenEnergyDashboard.github.io/features/">More ›</a>
+        </p>
+      </div><!-- /.large-6.columns -->
+
+
+      <div class="small-6 medium-3 large-3 large-offset-1 columns">
+        
+        
+        <h5 class="shadow-black">Services</h5>
+        
+        
+        
+        
+        
+        
+
+        <ul class="no-bullet shadow-black">
+          
+          <!-- Add / at end of capture string to avoid redirect issue. -->
+          
+          <li >
+            <a href="https://huss.github.io/OpenEnergyDashboard.github.io/"  title=""></a>
+          </li>
+          
+          <!-- Add / at end of capture string to avoid redirect issue. -->
+          
+          <li >
+            <a href="https://huss.github.io/OpenEnergyDashboard.github.io/contact/"  title="Contact">Contact</a>
+          </li>
+          
+          <!-- Add / at end of capture string to avoid redirect issue. -->
+          
+          <li >
+            <a href="https://huss.github.io/OpenEnergyDashboard.github.io/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+          </li>
+          
+        </ul>
+      </div><!-- /.large-4.columns -->
+
+
+      <div class="small-6 medium-3 large-3 columns">
+        
+
+        <ul class="no-bullet shadow-black">
+          
+        </ul>
+      </div><!-- /.large-3.columns -->
     </div><!-- /.row -->
 
-
-    <footer id="footer-content" class="bg-grau">
-      <div id="footer">
-        <div class="row">
-          <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">About This Site</h5>
-
-            <p class="shadow-black">
-              The OED dashboard allows organization to acquire, archive, analyze and display energy/resource usage.
-              <a href="https://huss.github.io/OpenEnergyDashboard.github.io/features/">More ›</a>
-            </p>
-          </div><!-- /.large-6.columns -->
+  </div><!-- /#footer -->
 
 
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
-            
-              
-                <h5 class="shadow-black">Services</h5>
-              
-            
-              
-            
-              
-            
+  <div id="subfooter">
+    <nav class="row">
+      <section id="subfooter-left" class="small-12 medium-6 columns credits">
+        <p>Created by the OED team using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="https://phlow.github.io/feeling-responsive/">Feeling Responsive</a>. This page is part of the Open Energy Dashboard and is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at <a href="https://www.mozilla.org/en-US/MPL/2.0/" rel="nofollow">https://www.mozilla.org/en-US/MPL/2.0/</a>.</p>
+      </section>
 
-              <ul class="no-bullet shadow-black">
-              
-              <!-- Add / at end of capture string to avoid redirect issue. -->
-                
-                  <li >
-                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io/"  title=""></a>
-                  </li>
-              
-              <!-- Add / at end of capture string to avoid redirect issue. -->
-                
-                  <li >
-                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//contact/"  title="Contact">Contact</a>
-                  </li>
-              
-              <!-- Add / at end of capture string to avoid redirect issue. -->
-                
-                  <li >
-                    <a href="https://huss.github.io/OpenEnergyDashboard.github.io//sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
-                  </li>
-              
-              </ul>
-          </div><!-- /.large-4.columns -->
-
-
-          <div class="small-6 medium-3 large-3 columns">
-            
-
-            <ul class="no-bullet shadow-black">
-            
-            </ul>
-          </div><!-- /.large-3.columns -->
-        </div><!-- /.row -->
-
-      </div><!-- /#footer -->
-
-
-      <div id="subfooter">
-        <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p>Created by the OED team using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="https://phlow.github.io/feeling-responsive/">Feeling Responsive</a>. This page is part of the Open Energy Dashboard and is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, you can obtain one at <a href="https://www.mozilla.org/en-US/MPL/2.0/" rel="nofollow">https://www.mozilla.org/en-US/MPL/2.0/</a>.</p>
-          </section>
-
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
-            
-              <li><a href="https://github.com/OpenEnergyDashboard/OED" target="_blank" class="icon-github" title="Code other repos..."></a></li>
-            
-            </ul>
-          </section>
-        </nav>
-      </div><!-- /#subfooter -->
-    </footer>
+      <section id="subfooter-right" class="small-12 medium-6 columns">
+        <ul class="inline-list social-icons">
+          
+          <li><a href="https://github.com/OpenEnergyDashboard/OED" target="_blank" class="icon-github"
+              title="Code other repos..."></a></li>
+          
+        </ul>
+      </section>
+    </nav>
+  </div><!-- /#subfooter -->
+</footer>
 
 		
 
