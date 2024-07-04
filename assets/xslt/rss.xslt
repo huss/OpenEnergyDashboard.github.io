@@ -431,7 +431,7 @@
 
 <div id="masthead-no-image-header">
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-6 small-centered columns">
 			<a id="logo" title="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
 				<img src="https://huss.github.io/OpenEnergyDashboard.github.io/assets/img/logo.png" alt="Open Energy Dashboard – A Free, Open Source Energy/Resource Dashboard">
 			</a>
