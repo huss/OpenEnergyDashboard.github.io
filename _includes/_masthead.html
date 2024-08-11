@@ -2,11 +2,14 @@
 {% if page.help == true %}
 	{% if page.helpType == "Developer" %}
 		{% assign imageUse = site.logoDeveloper %}
+		{% assign imageLink = site.url | append: site.baseurl | append: "/developer/developer/" %}
 	{% else %}
 		{% assign imageUse = site.logoHelp %}
+		{% assign imageLink = "../user/"" %}
 	{% endif %}
 {% else %}
 	{% assign imageUse = site.logo %}
+	{% assign imageLink = site.url | append: site.baseurl %}
 {% endif %}
 
 {% if page.header == NULL and page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL %}
@@ -14,7 +17,7 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-6 small-centered columns">
-			<a id="logo" title="{{ site.title }} – {{ site.slogan }}">
+			<a href="{{ imageLink }}" id="logo" title="{{ site.title }} – {{ site.slogan }}">
 				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ imageUse }}" alt="{{ site.title }} – {{ site.slogan }}">
 			</a>
 		</div><!-- /.small-12.columns -->
@@ -63,7 +66,7 @@
 	<div class="row">
 		<!-- Not sure why centered does not seem to work. -->
 		<div class="small-6 small-centered columns">
-			<a id="logo" title="{{ site.title }} – {{ site.slogan }}">
+			<a href="{{ imageLink }}" id="logo" title="{{ site.title }} – {{ site.slogan }}">
 				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ imageUse }}" alt="{{ site.title }} – {{ site.slogan }}">
 			</a>
 		</div><!-- /.small-12.columns -->
