@@ -1,0 +1,9 @@
+# This lists each item category and specifies the default size/bar color.
+
+- itemCategory: considerations
+  barColor: "#004d7a"
+  # This is a sample but use the default
+  # textSize: 1.25em
+  # TODO need to finish up and put in colors desired.
+- itemCategory: create
+  barColor: green

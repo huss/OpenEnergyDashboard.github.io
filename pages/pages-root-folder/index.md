@@ -34,8 +34,8 @@ widgets:
     text: 'OED maintains extensive documentation for users and site administrators that is also linked by help icons in the dashboard.'
   - widget:
     title: "Using OED"
-    url: '/use/'
-    text: 'Learn about what it takes to become an OED site and information if you are an OED site.'
+    url: '/sites/'
+    text: 'Learn about considerations in adopting a energy/resource dashboard, what it takes to become an OED site and information if you are an OED site.'
   - widget:
     title: "OED: Free and Maintained"
     url: '/free/'

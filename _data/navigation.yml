@@ -30,8 +30,8 @@
 #   url: "/demo/"
 #   side: left
 
-- title: "Adopting"
-  url: "/use/"
+- title: "Adopting/Sites"
+  url: "/sites/"
   side: left
 
 - title: "info"

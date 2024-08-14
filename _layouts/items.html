@@ -1,0 +1,71 @@
+---
+layout: default
+format: items
+---
+<!-- This lists all the items included in page.items in the format of an item.
+ It accepts the following values:
+ page.itemCategory specifies the type of item that uses itemCategories.yml to specify look.
+ page.barColor sets the bar separator color. It overrides the value of itemCategory.
+ page.textSize sets the text size. It overrides the value of itemCategory.
+
+ The items are shown as columns (currently two) that make both items the same height
+ in a single row but vary by rows.
+
+ If there is any content then it is shown first.
+ -->
+<!-- Get the page item category, see if passed, then loop over known ones to
+     see if matches. If so, then use the bar color and text size associated with that one. -->
+{% assign itemCategory = page.itemCategory %}
+{% if itemCategory %}
+    {% for category in site.data.itemCategories %}
+        {% if category.itemCategory == itemCategory %}
+            {% assign barColor = category.barColor %}
+            {% assign textSize = category.textSize %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+<!-- If an explicit bar color or text size was passed then use that one. -->
+{% assign passedBarColor = page.barColor %}
+{% if passedBarColor %}
+    {% assign barColor = passedBarColor %}
+{% endif %}
+{% assign passedTextSize = page.textSize %}
+{% if passedTextSize %}
+    {% assign textSize = passedTextSize %}
+{% endif %}
+
+{% comment %}
+*
+* First, if there is content, spit it out.
+*
+{% endcomment %}
+{% if content == "" %}
+    <!-- No content so put space at top so first row of cards placed better. -->
+    <div style="margin-top:2em;"></div>
+{% else %}
+    <div class="row">
+        {{ content }}
+    </div><!-- /.row -->
+{% endif %}
+
+<!-- Loops over all items to add to page after content. -->
+<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+        {% for curItem in page.items %}
+            <!-- itemInRow is what item number this is in the row starting at 0. -->
+            {% assign itemInRow = forloop.index0 | modulo: 2 %}
+            {% if itemInRow == 0 %}
+                <!-- First item in row so start the row. Make it so all items are the same height
+                if dataEqualizer set above. -->
+                <div class="row" data-equalizer>
+            {% endif %}
+                <div class="medium-6 columns" data-equalizer-watch>
+                    {% include item item=curItem  textSize=textSize barColor=barColor %}
+            </div>
+            {% if itemInRow == 1 or forloop.last %}
+                <!-- If the last item in the row or the last overall item then end the row. -->
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

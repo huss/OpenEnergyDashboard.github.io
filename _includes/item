@@ -1,0 +1,30 @@
+{% comment %}
+*
+* This include lets you easily display an item. To use this include no `.html` ending is necessary.
+* Example:
+* {% include item item=item barColor=barColor textSize=textSize%}
+* where item has a .title (optional) and .text,
+* barColor specifies the color of the separator bar for each item,
+* textSize is the size of the text.
+* barColor and textSize default to values if none provided.
+{% endcomment %}
+
+<!-- Get the passed bar color. If not present then use default color. -->
+{% assign barColor = include.barColor %}
+{% unless barColor %}
+    <!-- Green of the OED masthead. -->
+    {% assign barColor = "#3faf46" %}
+{% endunless %}
+<!-- Same for text size -->
+{% assign textSize = include.textSize %}
+{% unless textSize %}
+    {% assign textSize = "1.25em" %}
+{% endunless %}
+<!-- Get the items to show. -->
+{% assign item=include.item %}
+
+<hr style="width: 33%; text-align: left; margin: 0; border: 5px solid; color: {{barColor}}; border-radius: 3px;"> 
+{% if item.title %}
+    <h3 style="margin-top: 0px; font-weight: bold; color: #004d7a;">{{item.title}}</h3>
+{% endif %}
+<p style="font-size: {{textSize}};">{{item.text}}</p>

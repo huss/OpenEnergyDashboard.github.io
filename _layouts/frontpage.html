@@ -2,6 +2,7 @@
 layout: default
 format: frontpage
 ---
+<!-- TODO needed? -->
 <div id="header-home">
     <div class="row">
         <div class="small-12 columns">
@@ -15,10 +16,14 @@ format: frontpage
 * First, if there is content, spit it out.
 *
 {% endcomment %}
-
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->
+{% if content == "" %}
+    <!-- No content so put space at top so first row of cards placed better. -->
+    <div style="margin-top:2em;"></div>
+{% else %}
+    <div class="row">
+        {{ content }}
+    </div><!-- /.row -->
+{% endif %}
 
 <!-- Makes widgets in same row the same size if noEqualize is not true. -->
 {% unless page.noEqualize == true %}
