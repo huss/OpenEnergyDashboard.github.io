@@ -43,9 +43,11 @@ format: items
     <!-- No content so put space at top so first row of cards placed better. -->
     <div style="margin-top:2em;"></div>
 {% else %}
-    <div class="row">
+<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
         {{ content }}
     </div><!-- /.row -->
+</div>
 {% endif %}
 
 <!-- Loops over all items to add to page after content. -->
